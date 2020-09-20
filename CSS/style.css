@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(0, 0, 0)
+}
+nav{
+    display: flex;
+    background-color: #ff0000;
+}
+nav h1{
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+ul{
+    display: flex;
+    margin-left: 80%;
+}
+ul li{
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+ul li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.2s;
+}
+.info {
+    height: 15cm;
+}
+.logos{
+    margin-left: 35%;
+    flex: content
+}
+.welc{
+margin-top: 50px;
+margin-left: auto;
+margin-right: auto;
+width: max-content;
+color: #ffffff;
+cursor: pointer;
+font-size: 45px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.welc:hover{
+    color: rgb(255, 0, 0);
+}
+.sd{
+    color: coral;
+    font-size: larger;
+    font-style: italic; 
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 50px;
+    padding-left: 45%;
+}
+.logos img{
+    margin-top: 150px;
+    margin-left: 30px ;
+    margin-right: 20px;
+    transition: 0.2s;
+}
+.logos img:hover{
+    filter: blur(2px);
+    border-radius: 20px;
+}
+footer{
+    background-color: #ffffff;
+    padding-top: 5%;
+    display:flex;
+    justify-content:space-between ;
+}
+footer h3{
+    color: rgb(0, 0, 0);
+}
+.myinfo{
+    margin-left: 2%;
+    padding-top: 15px;
+    font-family: cursive
+}
+.foot{
+    margin-right: 10%;
+}
+footer .foot{
+    margin-bottom: 10px;
+}
+.foot a:hover, a:visited, a:link, a:active{
+    text-decoration: none;
+}
+
+.foot a img{
+    margin-left: 10px;
+    margin-right: 15px;
+    size: 2px;
+    transition: 0.3s;
+}
+.foot a img:hover{
+    transform: rotate(360deg);
+}
+.copyrights h3{
+    margin-right: 15px;
+    margin-top: 70px;
+   font-family: cursive ;
+}
+footer .foot{
+    margin-top: 50px;
+}
+
+
+/* projects */
+
+#projects{
+    background-color: #000000;
+}
+
+#nav-projects{
+    background-color: #5988b9;
+}
+
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+   
+}
+
+.project{
+    width: 300px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px ;
+    margin-bottom: 100px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: black 3px 6px 10px;
+}
+
+
+#projects h1{
+    font-family:  Arial, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+    padding-top: 10px;
+    font-size: 35px;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bolder;
+    
+}
+
+#projects h1:hover {
+    color: goldenrod;
+    text-shadow: black 2px 1px;
+}
+
+.project p, .project h6 , .project h3 , .project a{
+    padding: 10px;
+}
+
+.project p{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+
+.project h3{
+    text-align: center;
+    color: rgb(255, 0, 0);
+    font-weight: bolder;
+    font-size: 26px;
+    font-family: cursive;
+}
+
+.project a{
+    text-decoration: none;
+    color: white;
+    border: solid white 0.5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    border-radius: 6px;
+}
+
+.project a:hover{
+    color: goldenrod;
+    border: solid goldenrod 0.5px;
+    border-radius: 6px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.technologies{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.technologies h6{
+    color: grey;
+}
+
+/* contact */
+
+fieldset{
+    width: max-content;
+    margin-left:auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 100px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+label{
+    color: rgb(146 92 92);
+    font-size: 13px;
+    font-family: cursive;
+    color: #ff0000
+}
+input{
+    width: 100%;
+    height: 20px;
+    padding: 3px;
+    border-radius: 5px;
+    margin-bottom: 34px;
+}
+#contact{
+    color: #ffffff;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+    margin-top: 30px;
+}
+#contact-body{
+    background-color: #000000;
+}
